@@ -172,27 +172,27 @@ CORS_ALLOW_CREDENTIALS = False
 CHATTERBOT = {
     'name': 'Tech Support Bot',
     'logic_adapters': [
-        # 'chatterbot.logic.MathematicalEvaluation',
+        'chatterbot.logic.MathematicalEvaluation',
         # 'chatterbot.logic.TimeLogicAdapter',
-        # 'chatterbot.logic.BestMatch',
-        {
-            'import_path': 'chatterbot.logic.BestMatch',
-            'default_response': 'I am sorry, but I do not understand. I am still learning.',
-            'maximum_similarity_threshold': 0.9
-        }
+        'chatterbot.logic.BestMatch',
+        # {
+        #     'import_path': 'chatterbot.logic.BestMatch',
+        #     'default_response': 'I am sorry, but I do not understand. I am still learning.',
+        #     'maximum_similarity_threshold': 0.9
+        # }
     ],
     'preprocessors':[
             'chatterbot.preprocessors.clean_whitespace',
             'chatterbot.preprocessors.convert_to_ascii',
-            #  'chatterbot.preprocessors.remove_pun',
+             'preprocessors.remove_pun',
             # 'remove_pun'
 
                      
     ],
     'trainer':'chatterbot.trainers.ChatterBotCorpusTrainer',
     'training_data': [
-        'chatterbot.corpus.english.conversations',
-        # 'chatterbot.corpus.ecelldata.ecell'
+        # 'chatterbot.corpus.english.conversations',
+        'ecelldata.ecell'
     ],
     'read_only': True
 
