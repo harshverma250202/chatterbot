@@ -175,24 +175,17 @@ CHATTERBOT = {
         'chatterbot.logic.MathematicalEvaluation',
         # 'chatterbot.logic.TimeLogicAdapter',
         'chatterbot.logic.BestMatch',
-        # {
-        #     'import_path': 'chatterbot.logic.BestMatch',
-        #     'default_response': 'I am sorry, but I do not understand. I am still learning.',
-        #     'maximum_similarity_threshold': 0.9
-        # }
+
     ],
     'preprocessors':[
             'chatterbot.preprocessors.clean_whitespace',
-            'chatterbot.preprocessors.convert_to_ascii',
-             'preprocessors.remove_pun',
-            # 'remove_pun'
-
-                     
+            'chatterbot.preprocessors.convert_to_ascii',                     
     ],
     'trainer':'chatterbot.trainers.ChatterBotCorpusTrainer',
     'training_data': [
         # 'chatterbot.corpus.english.conversations',
-        'ecelldata.ecell'
+        'ecelldata.ecell',
+        'ecelldata.greetings'
     ],
     'read_only': True
 

@@ -24,6 +24,19 @@ class ChatterBotApiView(View):
         """
 
         input_data = json.loads(request.body)['user']
+        print(input_data)
+        input_data = input_data.replace('-', '')
+        input_data = input_data.replace(',', '')
+        input_data = input_data.replace('?', '')
+        input_data = input_data.replace('.', '')
+        input_data = input_data.replace('/', '')
+        input_data = input_data.replace('%', '')
+        input_data = input_data.replace('"', '')
+        input_data = input_data.replace('#', '')
+        input_data = input_data.replace('*', '')
+        input_data = input_data.replace('^', '')
+        input_data = input_data.lower()
+
 
         response = self.chatterbot.get_response(input_data)
 

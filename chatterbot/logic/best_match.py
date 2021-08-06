@@ -7,7 +7,7 @@ class BestMatch(LogicAdapter):
     A logic adapter that returns a response based on known responses to
     the closest matches to the input statement.
     """
-
+    
     def get(self, input_statement):
         """
         Takes a statement string and a list of statement strings.
@@ -87,5 +87,5 @@ class BestMatch(LogicAdapter):
         
         
   
-
+        # print(response)
         return response

@@ -2,35 +2,77 @@ categories:
 - ecell
 conversations:
 - - hello
+  - Hello, I am Ecell-bot how can i help you?
 - - hi
   - Hello, I am Ecell-bot how can i help you?
 - - bye
   - Bye, it was nice talking to you  
 - - fee for attending ead
   - There is no fee for the event. It is completely free.
-- - is EAD offline or online?
+- - is EAD offline or online
   - EAD is going to be an online event.  
 - - what is ecell
   - Ecell is a student run non-profit organization which is aimed at popularizing and promoting the spirit of entrepreneurship among the public. Ecell organizes various events throughout the year which helps us to achieve our aim.
 - - ecell
   - Ecell is a student run non-profit organization which is aimed at popularizing and promoting the spirit of entrepreneurship among the public. Ecell organizes various events throughout the year which helps us to achieve our aim.
 - - what is ges
+  - GES is an acronym for 'Global Entrepreneurship Summit' which is a global even during various events like talks by eminent Entrepreneurs and case study competions take place.
 - - ges
   - GES is an acronym for 'Global Entrepreneurship Summit' which is a global even during various events like talks by eminent Entrepreneurs and case study competions take place.
 - - what is ead
+  - Entrepreneurship Awareness Drive is an Event conducted by Ecell, IIT Kharagpur to spread awareness about Entrepreneurship in various colleges from all over India.
 - - ead
   - Entrepreneurship Awareness Drive is an Event conducted by Ecell, IIT Kharagpur to spread awareness about Entrepreneurship in various colleges from all over India.
 - - what is lsm
 - - lsm
   - Local Startup Meet is an event organised by Ecell, IIT Kharagpur in more than 23 cities all across the country during which local startup founders of that particular city gather and have a meet to discuss about Entrepreneurship in general.
-- - Who are you?
+- - who are you
 - - tell me about youself
   - I am a chatbot developed by the Ecell web team. I will try my best to solve your queries. I am designed to get better overtime. How may I help you? 
 - - how are you
   - I am fine. I will try my best to solve your queries. I am designed to get better overtime. How may I help you? 
 - - what is your name
   - I am a chatbot developed by the Ecell web team. I will try my best to solve your queries. I am designed to get better overtime. How may I help you?   
-- - How to register for EAD ?
+- - how to register for ead 
   - The registeration of EAD can be done from our online portal.
-- - How is EAD conducted ?
-  -   
+- - how is ead conducted 
+  - This year EAD is going to be conducted in online mode.
+- - when is lsm going to be conducted this year
+  - Around the month of October.
+- - how is lsm conducted 
+  - This year LSM is going to be conducted in online mode.
+- - how to participate in lsm 
+  - Register yourself on the EAD-LSM website.
+- - what are the prizes in lsm
+  - Top startups get to pitch before a panel of industry leading investors and win exciting services for their startups.
+- - who are the speakers for ead
+  - Many distinguished speaker will be present in the EAD events and it will vary from event to event.
+- - who are the speakers for lsm
+  - Many distinguished speaker will be present in the LSM event and it will vary day to day as we'll have various Workshops and Panel Discussions
+- - what is fee for attending lsm
+  - There is no fee for the LSM event. It is completely free. However, you'll have to register for it.
+- - what is fee for attending ead
+  - There is no fee for the EAD event. It is completely free. However, you'll have to register for it.
+- - is ead offline or online
+  - EAD is going to be an online event. 
+- - how long is ead/lsm
+  - EAD happens in many cities/states. Each EAD event would be around 1.5 hours to 2 ho
+- - how to register for lsm 
+  - The registeration of LSM can be done from our online portal.
+- - is lsm offline or online
+  - LSM is going to be an online event.
+- - what will be the duration of ead and lsm
+  - The duration will vary from city to city, there isnt any fixed time for the event, 
+- - can i attend ead in multiple cities
+  - As EAD-LSM is going to be held online, there isn't any constraints as to how many E
+- - are we going to get certificate for attending ead
+  - Yes, you'll be getting a certificate after you sucessfully attend the event.
+# - - can participants interact with speakers in ead
+#   - Yes, you can
+# # - - is ead a paid event
+# #   - 
+# - - is there any sector criteria for start-ups or is it open category competition          
+#   -
+
+
+
