@@ -5,12 +5,13 @@ conversations:
 - - hi
   - Hello, I am Ecell-bot how can i help you?
 - - bye
-  - Bye, it was nice taking to you  
+  - Bye, it was nice talking to you  
 - - fee for attending ead
   - There is no fee for the event. It is completely free.
 - - is EAD offline or online?
   - EAD is going to be an online event.  
 - - what is ecell
+  - Ecell is a student run non-profit organization which is aimed at popularizing and promoting the spirit of entrepreneurship among the public. Ecell organizes various events throughout the year which helps us to achieve our aim.
 - - ecell
   - Ecell is a student run non-profit organization which is aimed at popularizing and promoting the spirit of entrepreneurship among the public. Ecell organizes various events throughout the year which helps us to achieve our aim.
 - - what is ges
@@ -29,3 +30,7 @@ conversations:
   - I am fine. I will try my best to solve your queries. I am designed to get better overtime. How may I help you? 
 - - what is your name
   - I am a chatbot developed by the Ecell web team. I will try my best to solve your queries. I am designed to get better overtime. How may I help you?   
+- - How to register for EAD ?
+  - The registeration of EAD can be done from our online portal.
+- - How is EAD conducted ?
+  -   

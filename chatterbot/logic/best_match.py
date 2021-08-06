@@ -81,7 +81,7 @@ class BestMatch(LogicAdapter):
             # Set confidence to zero because a random response is selected
             response.confidence = 0
         print(response.confidence)
-        if(response.confidence<0.4):
+        if(response.confidence<0.5):
             response.text='Sorry but I am unable to understand you, I am still learning'
         
         
